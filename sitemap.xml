@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/login</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/dashboard</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/empleados</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/menu</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/carga_imagenes</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/toma_ordenes</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/cocina</loc>
+  </url>
+</urlset>

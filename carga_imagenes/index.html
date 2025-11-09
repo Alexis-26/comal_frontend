@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link rel="preload" as="image" href="logo_comal_n.png"/><title>GestionRestaurantes | CargaImagenes</title><meta content="favicon.ico" property="og:image"/><link rel="modulepreload" href="/assets/manifest-6ce96e76.js"/><link rel="modulepreload" href="/assets/entry.client-p118huXi.js"/><link rel="modulepreload" href="/assets/react-dom-cnueFmKY.js"/><link rel="modulepreload" href="/assets/chunk-OIYGIGL5-BJT18pxq.js"/><link rel="modulepreload" href="/assets/react-CoJJJlPT.js"/><link rel="modulepreload" href="/assets/rolldown-runtime-BOUEU6l4.js"/><link rel="modulepreload" href="/assets/root-ZK15Aa-_.js"/><link rel="modulepreload" href="/assets/reflex-env-DveTple5.js"/><link rel="modulepreload" href="/assets/emotion-react.browser.esm-DK48VeeY.js"/><link rel="modulepreload" href="/assets/theme-B_XW7NB4.js"/><link rel="modulepreload" href="/assets/react-is-9dFImih_.js"/><link rel="modulepreload" href="/assets/shim-DfGOlKZt.js"/><link rel="modulepreload" href="/assets/_carga_imagenes_._index-CscRDI-h.js"/><link rel="modulepreload" href="/assets/stateful_components-DVFRpIx8.js"/><script>
+// Only run in browser environment, not during SSR
+if (typeof document !== 'undefined') {
+    try {
+        const theme = localStorage.getItem("theme") || "system";
+        const systemPreference = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        const resolvedTheme = theme === "system" ? systemPreference : theme;
+
+        // Apply theme immediately - blocks until complete
+        // Use classList to avoid overwriting other classes
+        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.classList.add(resolvedTheme);
+        document.documentElement.style.colorScheme = resolvedTheme;
+
+    } catch (e) {
+        // Fallback to system preference on any error (resolve "system" to actual theme)
+        const fallbackTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.classList.add(fallbackTheme);
+        document.documentElement.style.colorScheme = fallbackTheme;
+    }
+}
+</script><link href="/assets/__reflex_global_styles-5T6RkCoS.css" rel="stylesheet" type="text/css"/></head><body><section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false"></section><div data-is-root-theme="true" data-accent-color="blue" data-gray-color="slate" data-has-background="true" data-panel-background="translucent" data-radius="medium" data-scaling="100%" class="radix-themes css-0"><style data-emotion="css 17rg0dp">.css-17rg0dp{position:fixed;width:100vw;height:0;}</style><div title="Connection Error: " class="css-17rg0dp"></div><style data-emotion="css 8atqhb">.css-8atqhb{width:100%;}</style><div class="rt-Box css-8atqhb"><style data-emotion="css olriw6">.css-olriw6{width:100%;padding:10px 20px 10px 20px;background:#F7F7F7;}</style><div class="rt-Box css-olriw6"><div class="rt-Flex rt-r-fd-row rt-r-ai-center rt-r-jc-space-between rt-r-gap-3 rx-Stack css-8atqhb"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-text-align-justify" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_qcqj5_" data-state="closed"><path d="M3 5h18"></path><path d="M3 12h18"></path><path d="M3 19h18"></path></svg><style data-emotion="css jx26nd">.css-jx26nd{position:fixed;left:0;right:0;bottom:0;top:0;z-index:5;background:rgba(0, 0, 0, 0.5);}</style><style data-emotion="css q2ms4q">.css-q2ms4q{width:60px;}</style><img src="logo_comal_n.png" class="css-q2ms4q"/><style data-emotion="css 1ouuevn">.css-1ouuevn{padding:6px;background:transparent;color:inherit;z-index:20;}.css-1ouuevn:hover{cursor:pointer;}</style><button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-IconButton css-1ouuevn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></button></div></div><style data-emotion="css mrmdp">.css-mrmdp{width:100%;padding:40px;}</style><div class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-gap-8 rx-Stack css-mrmdp"><div class="rt-Flex rt-r-fd-row rt-r-ai-center rt-r-jc-center rt-r-gap-3 rx-Stack css-8atqhb"><h1 class="rt-Heading rt-r-size-9">Carga de Imagenes</h1></div><div class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-gap-3 rx-Stack css-8atqhb"><style data-emotion="css 3by5eu">.css-3by5eu{border:1px dotted #CF6345;width:60%;padding:5em;text-align:center;}</style><div id="bdcsv" role="presentation" tabindex="0" class="rt-Box rx-Upload css-3by5eu"><input type="file" multiple="" style="border:0;clip:rect(0, 0, 0, 0);clip-path:inset(50%);height:1px;margin:0 -1px -1px 0;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" tabindex="-1"/><div class="rt-Flex rt-r-fd-column rt-r-ai-center rt-r-gap-3 rx-Stack"><style data-emotion="css e3zzyj">.css-e3zzyj{border:1px solid #CF6345;color:#CF6345;background:none;}</style><button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button css-e3zzyj">Subir imagenes</button><p class="rt-Text rt-r-weight-bold">Selecciona imagenes .jpg</p></div></div><style data-emotion="css rv87bp">.css-rv87bp{background:#CF6345;}</style><button data-accent-color="" class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button css-rv87bp">Cargar imagenes</button></div></div></div></div><script>((storageKey2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({ key }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(storageKey2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(storageKey2);
+    }
+  })("react-router-scroll-positions", null)</script><script>window.__reactRouterContext = {"basename":"/","future":{"v8_middleware":false,"unstable_optimizeDeps":true,"unstable_splitRouteModules":false,"unstable_subResourceIntegrity":false,"unstable_viteEnvironmentApi":false},"routeDiscovery":{"mode":"initial"},"ssr":false,"isSpaMode":false};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">import "/assets/manifest-6ce96e76.js";
+import * as route0 from "/assets/root-ZK15Aa-_.js";
+import * as route1 from "/assets/_carga_imagenes_._index-CscRDI-h.js";
+  
+  window.__reactRouterRouteModules = {"root":route0,"routes/[carga_imagenes]._index":route1};
+
+import("/assets/entry.client-p118huXi.js");</script><!--$?--><template id="B:0"></template><!--/$--><script id="_R_">requestAnimationFrame(function(){$RT=performance.now()});</script><div hidden id="S:0"><script>window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_3\":-5,\"_4\":-5},\"loaderData\",{},\"actionData\",\"errors\"]\n");</script><!--$?--><template id="B:1"></template><!--/$--></div><script>$RB=[];$RV=function(a){$RT=performance.now();for(var b=0;b<a.length;b+=2){var c=a[b],e=a[b+1];null!==e.parentNode&&e.parentNode.removeChild(e);var f=c.parentNode;if(f){var g=c.previousSibling,h=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d||"/&"===d)if(0===h)break;else h--;else"$"!==d&&"$?"!==d&&"$~"!==d&&"$!"!==d&&"&"!==d||h++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;e.firstChild;)f.insertBefore(e.firstChild,c);g.data="$";g._reactRetry&&requestAnimationFrame(g._reactRetry)}}a.length=0};
+$RC=function(a,b){if(b=document.getElementById(b))(a=document.getElementById(a))?(a.previousSibling.data="$~",$RB.push(a,b),2===$RB.length&&("number"!==typeof $RT?requestAnimationFrame($RV.bind(null,$RB)):(a=performance.now(),setTimeout($RV.bind(null,$RB),2300>a&&2E3<a?2300-a:$RT+300-a)))):b.parentNode.removeChild(b)};$RC("B:0","S:0")</script><div hidden id="S:1"><script>window.__reactRouterContext.streamController.close();</script></div><script>$RC("B:1","S:1")</script></body></html>
